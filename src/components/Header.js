@@ -8,7 +8,7 @@ class Header extends Component {
                 <h1>App Header</h1>
                 <ul>
                     <li><Link to="/">Dashboard</Link></li>
-                    <li><Link to="/my">To do</Link></li>
+                    <li><Link to="/todo">To do</Link></li>
                     <li><Link to="/counter">Counter</Link></li>
                 </ul>
             </div>
