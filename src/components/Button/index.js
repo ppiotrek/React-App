@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './index.css'
 
 class Button extends Component {
     render() {
@@ -6,11 +7,14 @@ class Button extends Component {
             backgroundColor: 'green',
             color: 'yellow'
         };
-        return(
+        return (
             <div>
-                <button style={buttonStyle}>{this.props.label}</button>
+                <div className="btn-container">
+                    <button style={buttonStyle}>{this.props.label}</button>
+                </div>
             </div>
         );
+
     }
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
+import Search from './Search';
 
 class Header extends Component {
     render(){
@@ -11,8 +12,12 @@ class Header extends Component {
                     <li><Link to="/">Dashboard</Link></li>
                     <li><Link to="/todo">To do</Link></li>
                     <li><Link to="/counter">Counter</Link></li>
+                    <li><Link to="/form">Form</Link></li>
                 </ul>
                 <Button label ='OK!'/>
+                <div>
+                    Search!
+                </div>
             </div>
         );
     }
